@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main-content">
+            <header>
+                <input type="color" id="colour-selector" />
+                <select name="colour-shceme" id="colour-scheme-select">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome-dark</option>
+                    <option value="monochrome-light">Monochrome-light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic-complement</option>
+                    <option value="triad">Triad</option>
+                </select>
+                <button id="get-colour">Get colour shceme</button>
+            </header>
+            <main>
+                <div class="colours-display">
+                    <div id="first"></div>
+                    <div id="second"></div>
+                    <div id="third"></div>
+                    <div id="fourth"></div>
+                    <div id="fifth"></div>
+                </div>  
+            </main>
+            <footer>
+                <h1 id="first-code">#000000</h1>
+                <h1 id="second-code">#000000</h1>
+                <h1 id="third-code">#000000</h1>
+                <h1 id="fourth-code">#000000</h1>
+                <h1 id="fifth-code">#000000</h1>
+            </footer>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
